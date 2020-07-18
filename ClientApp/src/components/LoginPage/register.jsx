@@ -1,7 +1,8 @@
 import React from "react";
-import loginImg from "../../images/BaseAvatar.svg";
+import loginImg from "../images/BaseAvatar.svg";
+import { connect } from "react-redux";
 
-export class Register extends React.Component {
+class Register extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -38,3 +39,4 @@ export class Register extends React.Component {
     );
   }
 }
+export default connect()(Register);

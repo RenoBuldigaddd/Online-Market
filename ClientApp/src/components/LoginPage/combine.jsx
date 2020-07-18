@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./App.scss";
 //import { Login, Register } from "./index";
-import { Login } from "./login";
-import { Register } from "./register";
+import Login from "./login";
+import Register from "./register";
 //import Main from "./components/MainPage/index";
 
 class combine extends React.Component {
