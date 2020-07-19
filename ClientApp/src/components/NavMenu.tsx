@@ -9,7 +9,7 @@ import {
   NavLink,
 } from "reactstrap";
 import { Link } from "react-router-dom";
-import "./NavMenu.css";
+import "./NavMenu.scss";
 
 export default class NavMenu extends React.PureComponent<
   {},

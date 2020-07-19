@@ -1,12 +1,12 @@
 import * as React from "react";
-import { Route } from "react-router";
+import { Route, Router } from "react-router";
 import Layout from "./components/Layout";
 import Home from "./components/Home";
 import Counter from "./components/Counter";
 import FetchData from "./components/FetchData";
-import Login from "./components/LoginPage/combine";
+import Login from "./components/AuthorizationPage/combine";
 
-import "./custom.css";
+import "./custom.scss";
 
 export default () => (
   <Layout>
