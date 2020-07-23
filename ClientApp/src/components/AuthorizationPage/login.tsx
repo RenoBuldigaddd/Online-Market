@@ -1,6 +1,6 @@
 import * as React from "react";
 import { connect } from "react-redux";
-import loginImg from "../images/BaseAvatar.svg";
+import loginImg from "../../images/BaseAvatar.svg";
 
 const Home = () => (
   <div className="base-container" /*ref={this.props.containerRef}*/>
@@ -22,15 +22,6 @@ const Home = () => (
             placeholder="email"
           />
         </div>
-        {/* <div class="input-div one">
-          <div class="i">
-            <i class="fas fa-user"></i>
-          </div>
-          <div class="div">
-            <h5>Username</h5>
-            <input type="text" class="input" />
-          </div>
-        </div> */}
         <div className="form-group">
           <label htmlFor="password">Password</label>
           <input

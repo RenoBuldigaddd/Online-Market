@@ -1,6 +1,6 @@
 import * as React from "react";
 import { connect } from "react-redux";
-import loginImg from "../images/BaseAvatar.svg";
+import loginImg from "../../images/BaseAvatar.svg";
 
 const Home = () => (
   <div className="base-container" /*ref={this.props.containerRef}*/>

@@ -38,10 +38,17 @@ export default class NavMenu extends React.PureComponent<
             >
               <ul className="navbar-nav flex-grow">
                 <NavItem>
-                  <NavLink tag={Link} className="text-dark" to="/">
+                  <NavLink tag={Link} className="text-dark" to="/home">
                     Home
                   </NavLink>
                 </NavItem>
+
+                {/* <NavItem>
+                  <NavLink tag={Link} className="text-dark" to="/">
+                    Home
+                  </NavLink>
+                </NavItem> */}
+
                 <NavItem>
                   <NavLink tag={Link} className="text-dark" to="/counter">
                     Counter
