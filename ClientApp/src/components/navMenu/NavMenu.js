@@ -34,7 +34,7 @@ export default class NavMenu extends React.PureComponent {
                 <input
                   type="text"
                   className="form-control form-control-sm"
-                  aria-label="пошук"
+                  aria-label="search"
                   aria-describedby="button-search"
                 ></input>
                 <div className="input-group-append">
@@ -51,12 +51,12 @@ export default class NavMenu extends React.PureComponent {
               <ul className="navbar-nav flex-grow">
                 <NavItem>
                   <NavLink tag={Link} className="p-2 text-dark" to="/">
-                    Головна
+                    Home
                   </NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink tag={Link} className="p-2 text-dark" to="/catalog">
-                    Каталог
+                    Catalog
                   </NavLink>
                 </NavItem>
                 {/* <a class="p-2 text-dark" href="#">Features</a> */}
@@ -64,12 +64,17 @@ export default class NavMenu extends React.PureComponent {
                                 <a class="p-2 text-dark" href="#">Support</a>
                                 <a class="p-2 text-dark" href="#">Pricing</a> */}
                 <NavItem>
+                  <NavLink tag={Link} className="p-2 text-dark" to="/catalog">
+                    Profile
+                  </NavLink>
+                </NavItem>
+                <NavItem>
                   <NavLink
                     tag={Link}
                     className="btn btn-outline-primary p-2"
                     to="/login"
                   >
-                    Увійти
+                    SingIn
                   </NavLink>
                 </NavItem>
                 <NavItem>
