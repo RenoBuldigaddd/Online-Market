@@ -1,6 +1,7 @@
 import * as React from "react";
 import { connect } from "react-redux";
 import loginImg from "../../images/BaseAvatar.svg";
+import "./style.scss";
 
 const Home = () => (
   <div className="base-container" /*ref={this.props.containerRef}*/>
@@ -34,7 +35,7 @@ const Home = () => (
         </div>
       </div>
     </div>
-    <div className="footer">
+    <div className="footerreg">
       <button type="submit" className="btn">
         Login
       </button>

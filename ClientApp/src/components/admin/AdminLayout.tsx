@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { Container } from 'reactstrap';
-import NavMenu from './navMenu/NavMenu';
+import AdminMenu from '../navMenu/AdminMenu';
 
-export default (props: { children?: React.ReactNode }) => (
+export default (props: {children?: React.ReactNode}) => (
     <React.Fragment>
-        <NavMenu/>
+        <AdminMenu/>
         <Container>
             {props.children}
         </Container>
