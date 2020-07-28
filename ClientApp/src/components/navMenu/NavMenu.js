@@ -9,7 +9,8 @@ import {
   NavLink,
 } from "reactstrap";
 import { Link } from "react-router-dom";
-import "../NavMenu.css";
+import "../NavMenu.scss";
+import { link } from "fs";
 
 export default class NavMenu extends React.PureComponent {
   state = {
@@ -24,12 +25,12 @@ export default class NavMenu extends React.PureComponent {
             <NavbarBrand tag={Link} to="/">
               Online-Market
             </NavbarBrand>
-            {/* <h5 class="my-0 mr-md-auto font-weight-normal">Company name</h5> */}
             <Collapse
               className="d-sm-inline-flex"
               isOpen={this.state.isOpen}
               navbar
             >
+              {/*Searching*/}
               <div className="input-group p-1">
                 <input
                   type="text"
@@ -47,7 +48,6 @@ export default class NavMenu extends React.PureComponent {
                   </button>
                 </div>
               </div>
-              {/* <nav class="my-2 my-md-0 mr-md-3"> */}
               <ul className="navbar-nav flex-grow">
                 <NavItem>
                   <NavLink tag={Link} className="p-2 text-dark" to="/">
@@ -59,13 +59,15 @@ export default class NavMenu extends React.PureComponent {
                     Catalog
                   </NavLink>
                 </NavItem>
-                {/* <a class="p-2 text-dark" href="#">Features</a> */}
-                {/* <a class="p-2 text-dark" href="#">Enterprise</a>
-                                <a class="p-2 text-dark" href="#">Support</a>
-                                <a class="p-2 text-dark" href="#">Pricing</a> */}
+
                 <NavItem>
                   <NavLink tag={Link} className="p-2 text-dark" to="/catalog">
                     Profile
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink tag={link} className="p-2 text-dark" to="/events">
+                    Events
                   </NavLink>
                 </NavItem>
                 <NavItem>
@@ -86,9 +88,7 @@ export default class NavMenu extends React.PureComponent {
                   </NavLink>
                 </NavItem>
               </ul>
-              {/* </nav> */}
             </Collapse>
-            {/* <a className="btn btn-outline-primary" href="#">Sign up</a> */}
           </Container>
         </Navbar>
       </header>
