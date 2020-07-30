@@ -1,7 +1,7 @@
 import * as React from "react";
 import { connect } from "react-redux";
 import { Container } from "reactstrap";
-import BaseAvatar from "../../images/BaseAvatar.svg";
+import BaseAvatar from "../../images/Profile/BaseAvatar.svg";
 import "./Cabinet.scss";
 
 class Cabinet extends React.PureComponent {

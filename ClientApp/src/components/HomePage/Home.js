@@ -21,7 +21,7 @@ class Home extends React.PureComponent {
                 </a>
               </div>
             </div>
-            <div class="container">
+            <div class="container a">
               <div class="row">
                 <div class="col-sm-4">
                   <h3>Column 1</h3>
