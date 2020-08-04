@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Шмфт\\Desktop\\backend\\backend\\backend.csproj": {}
+    "C:\\Users\\Шмфт\\Desktop\\Dyplom\\backend\\backend\\backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Шмфт\\Desktop\\backend\\backend\\backend.csproj": {
+    "C:\\Users\\Шмфт\\Desktop\\Dyplom\\backend\\backend\\backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Шмфт\\Desktop\\backend\\backend\\backend.csproj",
+        "projectUniqueName": "C:\\Users\\Шмфт\\Desktop\\Dyplom\\backend\\backend\\backend.csproj",
         "projectName": "backend",
-        "projectPath": "C:\\Users\\Шмфт\\Desktop\\backend\\backend\\backend.csproj",
+        "projectPath": "C:\\Users\\Шмфт\\Desktop\\Dyplom\\backend\\backend\\backend.csproj",
         "packagesPath": "C:\\Users\\Шмфт\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Шмфт\\Desktop\\backend\\backend\\obj\\",
+        "outputPath": "C:\\Users\\Шмфт\\Desktop\\Dyplom\\backend\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Шмфт\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,6 +38,22 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "IdentityModel": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
+            "Microsoft.AspNet.Identity.EntityFramework": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
             "Microsoft.AspNetCore.SpaServices.Extensions": {
               "target": "Package",
               "version": "[3.1.6, )"
@@ -50,9 +66,17 @@
               "target": "Package",
               "version": "[3.1.6, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            },
             "NETStandard.Library": {
               "target": "Package",
               "version": "[2.0.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.7.1, )"
             }
           },
           "imports": [

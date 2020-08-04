@@ -10,8 +10,8 @@ class Cabinet extends React.PureComponent {
     return (
       <React.Fragment>
         <Container>
-          <div class="container">
-            <div class="row profile">
+          <div class="container-fluid padding">
+            <div class="row profile jumbotron">
               <div class="col-md-3">
                 <div class="profile-sidebar">
                   <div class="profile-userpic">

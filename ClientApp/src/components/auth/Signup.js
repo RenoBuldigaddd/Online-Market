@@ -17,12 +17,12 @@ class Signup extends React.PureComponent {
             </div>
             <div className="form-row">
               <div className="form-group col-md-9">
-                <label for="inputName">Fullname</label>
+                <label for="inputName">Login</label>
                 <input
                   type="text"
                   className="form-control"
-                  id="inputFullName"
-                  placeholder="Fullname"
+                  id="inputLogin"
+                  placeholder="Login"
                   required
                 ></input>
               </div>
@@ -103,13 +103,13 @@ class Signup extends React.PureComponent {
                 <label for="inputState">Region</label>
                 <select id="inputState" className="form-control">
                   <option selected>choose...</option>
-                  <option>Kyiv</option>
-                  <option>Odessa</option>
-                  <option>Lviv</option>
-                  <option>Vinnytsia</option>
-                  <option>Rivne</option>
-                  <option>Poltava</option>
-                  <option>Lutsk</option>
+                  <option>Kyiv`ska oblast</option>
+                  <option>Odessa`ska oblast</option>
+                  <option>Lviv`ska oblast</option>
+                  <option>Vinnyts`ska oblast</option>
+                  <option>Rivne`nska oblast</option>
+                  <option>Poltav`ska oblast</option>
+                  <option>...</option>
                   Lviv Vinnytsia
                 </select>
               </div>
