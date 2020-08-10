@@ -152,6 +152,16 @@ C:\Users\Шмфт\Desktop\Dyplom\backend\backend\bin\Debug\netcoreapp3.1\System.
 C:\Users\Шмфт\Desktop\Dyplom\backend\backend\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Шмфт\Desktop\Dyplom\backend\backend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Шмфт\Desktop\Dyplom\backend\backend\bin\Debug\netcoreapp3.1\AutoMapper.dll
-C:\Users\Шмфт\Desktop\Dyplom\backend\backend\bin\Debug\netcoreapp3.1\IdentityModel.dll
 C:\Users\Шмфт\Desktop\Dyplom\backend\backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
 C:\Users\Шмфт\Desktop\Dyplom\backend\backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Шмфт\Desktop\Dyplom\backend\backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Шмфт\Desktop\Dyplom\backend\backend\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Шмфт\Desktop\Dyplom\backend\backend\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Шмфт\Desktop\Dyplom\backend\backend\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Шмфт\Desktop\Dyplom\backend\backend\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Шмфт\Desktop\Dyplom\backend\backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Шмфт\Desktop\Dyplom\backend\backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Шмфт\Desktop\Dyplom\backend\backend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Шмфт\Desktop\Dyplom\backend\backend\obj\Debug\netcoreapp3.1\backend.csproj.CoreCompileInputs.cache
+C:\Users\Шмфт\Desktop\Dyplom\backend\backend\obj\Debug\netcoreapp3.1\backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Шмфт\Desktop\Dyplom\backend\backend\obj\Debug\netcoreapp3.1\backend.MvcApplicationPartsAssemblyInfo.cache

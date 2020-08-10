@@ -46,13 +46,13 @@
               "target": "Package",
               "version": "[6.4.4, )"
             },
-            "IdentityModel": {
-              "target": "Package",
-              "version": "[4.3.1, )"
-            },
             "Microsoft.AspNet.Identity.EntityFramework": {
               "target": "Package",
               "version": "[2.2.3, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
             },
             "Microsoft.AspNetCore.SpaServices.Extensions": {
               "target": "Package",
@@ -65,6 +65,12 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
             },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",

@@ -1,10 +1,20 @@
 import * as React from "react";
 import { connect } from "react-redux";
 import { Container } from "reactstrap";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import Slider from "./components/Slider";
+import images from "./images";
+
 import "./Home.scss";
 import background from "../../images/Home/background.jpg";
 import background2 from "../../images/Home/background2.jpg";
 import background3 from "../../images/Home/background3.jpg";
+import desk1 from "../../images/Home/desk.png";
+import panda from "../../images/Home/gif/panda.gif";
+import unicorn from "../../images/Home/gif/unicorn.gif";
+import poo from "../../images/Home/gif/poo.gif";
+import chicken from "../../images/Home/gif/chicken.gif";
 
 class Home extends React.PureComponent {
   state = { isOpen: false };
@@ -12,56 +22,19 @@ class Home extends React.PureComponent {
     return (
       <React.Fragment>
         <Container>
-          {/* <div className="body container-fluid banner">
-            <div className="row">
-              <div className="col-md-8 offset-md-2 info">
-                <h1 className="text-center">SPITAL</h1>
-                <p className="text-center">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing
-                </p>
+          {/* 
                 <a href="#" className="btn btn-md text-center">
                   GET STARTED
                 </a>
-              </div>
-            </div>
-            <div className="container a">
-              <div className="row">
-                <div className="col-sm-4">
-                  <h3>Column 1</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit...
-                  </p>
-                  <p>
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris...
-                  </p>
-                </div>
-                <div className="col-sm-4">
-                  <h3>Column 2</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit...
-                  </p>
-                  <p>
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris...
-                  </p>
-                </div>
-                <div className="col-sm-4">
-                  <h3>Column 3</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit...
-                  </p>
-                  <p>
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris...
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div> */}
+              }
 
           {/* <!--- Image Slider --> */}
-          <div className="carousel slide" id="slides">
+          <div className="container-md container-fluid padding">
+            <div className="row padding">
+              <Slider slides={images} />
+            </div>
+          </div>
+          {/* <div className="carousel slide" id="slides">
             <ul className="carousel-indicators">
               <li
                 data-target="#slides"
@@ -98,7 +71,7 @@ class Home extends React.PureComponent {
                 <img />
               </div>
             </div>
-          </div>
+          </div> */}
           {/* <!--- Jumbotron --> */}
           <div className="container-fluid">
             <div className="row jumbotron">
@@ -173,7 +146,7 @@ class Home extends React.PureComponent {
                 </a>
               </div>
               <div className="col-lg-6">
-                <img src="img/desk.png" alt="desk" className="img-fluid" />
+                <img src={desk1} alt="desk" className="img-fluid" />
               </div>
             </div>
           </div>
@@ -192,19 +165,19 @@ class Home extends React.PureComponent {
             <div className="container-fluid padding">
               <div className="row text-center">
                 <div className="col-sm-6 col-md-3">
-                  <img src="img/gif/panda.gif" className="gif" alt="" />
+                  <img src={panda} className="gif" alt="" />
                   <img />
                 </div>
                 <div className="col-sm-6 col-md-3">
-                  <img src="img/gif/chicken.gif" className="gif" alt="" />
+                  <img src={chicken} className="gif" alt="" />
                   <img />
                 </div>
                 <div className="col-sm-6 col-md-3">
-                  <img src="img/gif/poo.gif" className="gif" alt="" />
+                  <img src={poo} className="gif" alt="" />
                   <img />
                 </div>
                 <div className="col-sm-6 col-md-3">
-                  <img src="img/gif/unicorn.gif" className="gif" alt="" />
+                  <img src={unicorn} className="gif" alt="" />
                   <img />
                 </div>
               </div>

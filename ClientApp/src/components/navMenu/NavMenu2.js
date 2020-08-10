@@ -41,23 +41,23 @@ export default class NavMenu extends React.PureComponent {
                 </a>
               </li>
               <li className="nav-item">
-                <a href="/card" className="nav-link">
-                  Card
+                <a href="/catalog" className="nav-link">
+                  Catalog
                 </a>
               </li>
               <li className="nav-item">
-                <a href="/cabinet" className="nav-link">
+                <a href="/profile" className="nav-link">
                   Profile
                 </a>
               </li>
               <li className="nav-item">
-                <a href="/login" className="nav-link">
+                <a href="/signin" className="nav-link">
                   SignIn
                 </a>
               </li>
-              <li className="nav-item">
-                <a href="#" className="nav-link">
-                  Connect
+              <li className="nav-item cart">
+                <a href="/catalog" className="nav-link btn btn-outline-dark ">
+                  <ion-icon name="basket-outline"></ion-icon>Cart<span>0</span>
                 </a>
               </li>
             </ul>

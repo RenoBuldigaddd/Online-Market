@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace backend.DAL.Entities
 {
-
-    public class DbUser : IdentityUser
+    public class DbUser : IdentityUser<int>
     {
-        public virtual UserImage UserImage { get; set; }
-        public ICollection<MicroInfo> Microblogs { get; set; }
+        public ICollection<DbUserRole> UserRoles { get; set; }
     }
 }
