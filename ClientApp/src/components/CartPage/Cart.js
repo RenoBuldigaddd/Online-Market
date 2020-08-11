@@ -10,20 +10,61 @@ class Cart extends Component {
     render() {
         
         return (
-          <>
-            <div className="card">
-                <div class="card__header">
-                    <img src={laptop2}></img>
-                </div>
-                <div className="card__content">
-                    <h3 className="card__title">
-                        Card title
-                    </h3>
-                    <div class="card__text">
-                        <p>kmdfamdlck;ms;lkcmka;lmckmlkm</p>
-                    </div>
-                </div>                
+          <>     
+          <div className="container-fluid padding">
+            <div className="row text-center">
+              <div className="col-12">
+                <h1 className="display-4">Our Goods!</h1>
+              </div>
+              <hr />
             </div>
+          </div>       
+          <div className="container-fluid padding">
+            <div className="row padding">
+            <div className="col-md-4">
+                <div className="card">
+                  <img src={laptop2} className="card__header" alt="" />
+                  <img />
+                  <div className="card-body">
+                    <h4 className="card-title">Melania Trump</h4>
+                    <p className="card-text">First lady dick</p>
+                    <a href="#" className="btn btn-outline-secondary">
+                      See Profile
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-md-4">
+                <div className="card">
+                  <img src={laptop2} className="card__header" alt="" />
+                  <img />
+                  <div className="card-body">
+                    <h4 className="card-title">Melania Trump</h4>
+                    <p className="card-text">First lady dick</p>
+                    <a href="#" className="btn btn-outline-secondary">
+                      See Profile
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-md-4">
+                <div className="card">
+                  <img src={laptop2} className="card__header" alt="" />
+                  <img />
+                  <div className="card-body">
+                    <h4 className="card-title">Melania Trump</h4>
+                    <p className="card-text">First lady dick</p>
+                    <a href="#" className="btn btn-outline-secondary">
+                      See Profile
+                    </a>
+                  </div>
+                </div>
+              </div>
+              </div>
+              </div>
+              
           </>
         );
       }
