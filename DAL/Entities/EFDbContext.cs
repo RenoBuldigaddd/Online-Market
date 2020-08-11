@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace backend.Entities
+namespace backend.DAL.Entities
 {
     public class EFDbContext : IdentityDbContext<DbUser, DbRole, int, IdentityUserClaim<int>,
                     DbUserRole, IdentityUserLogin<int>,

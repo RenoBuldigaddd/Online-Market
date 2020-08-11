@@ -115,7 +115,7 @@ class Signup extends React.PureComponent {
               </div>
             </div>
             <div className="form-group row justify-content-center mt-4">
-              <Link to="/cabinet" className="btn btn-primary col-md-4">
+              <Link to="/signin" className="btn btn-primary col-md-4">
                 Confirm
               </Link>
             </div>

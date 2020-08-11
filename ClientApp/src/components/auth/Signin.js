@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import { Container, NavLink } from "reactstrap";
 import { Link } from "react-router-dom";
 
-class Login extends React.PureComponent {
+class Signin extends React.PureComponent {
   state = {};
   render() {
     return (
@@ -78,4 +78,4 @@ class Login extends React.PureComponent {
   }
 }
 
-export default connect()(Login);
+export default connect()(Signin);

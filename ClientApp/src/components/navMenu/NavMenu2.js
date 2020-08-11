@@ -41,7 +41,7 @@ export default class NavMenu extends React.PureComponent {
                 </a>
               </li>
               <li className="nav-item">
-                <a href="/catalog" className="nav-link">
+                <a href="/card" className="nav-link">
                   Catalog
                 </a>
               </li>
@@ -55,11 +55,16 @@ export default class NavMenu extends React.PureComponent {
                   SignIn
                 </a>
               </li>
+              <li className="nav-item text-dark">
+                <a href="/products" className="nav-link">
+                  Products
+                </a>
+              </li>
               <li className="nav-item cart">
                 <a href="/catalog" className="nav-link btn btn-outline-dark ">
                   <ion-icon name="basket-outline"></ion-icon>Cart<span>0</span>
                 </a>
-              </li>
+              </li>                          
             </ul>
           </div>
         </div>
